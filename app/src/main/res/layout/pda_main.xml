@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PDA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonpda1"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denná kontrola VS ERDC" />
+
+        <Button
+            android:id="@+id/buttonpda2"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denná kontrola VS Modul Shop" />
+
+        <Button
+            android:id="@+id/buttonpda3"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denná kontrola VS Part Shop" />
+        <Button
+            android:id="@+id/buttonpda4"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denná kontrola trafostanice Part Shop, Modul Shop, CKD, ERDC, CPP" />
+
+        <Button
+            android:id="@+id/buttonpda5"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denná kontrola trafostanice SS Mobis" />
+
+        <Button
+            android:id="@+id/buttonpda6"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denná kontrola trafostanice SS Mobis Back up" />
+        <Button
+            android:id="@+id/buttonpda7"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denná kontrola zariadenia RO Pump Room" />
+
+        <Button
+            android:id="@+id/buttonpda8"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Denná kontrola zariadenia RO IP" />
+
+
+    </LinearLayout>
+</ScrollView>

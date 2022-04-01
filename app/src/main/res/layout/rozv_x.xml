@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rozv_j">
+
+    <Button
+        android:id="@+id/buttonr1"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="206dp"
+        android:text="Modul Shop" />
+
+    <Button
+        android:id="@+id/buttonr2"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="169dp"
+        android:layout_marginBottom="206dp"
+        android:text="Part Shop" />
+
+    <Button
+        android:id="@+id/buttonr3"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="181dp"
+        android:layout_marginBottom="206dp"
+        android:text="CPP" />
+
+    <Button
+        android:id="@+id/buttonr4"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="177dp"
+        android:layout_marginBottom="206dp"
+        android:text="CKD" />
+
+    <Button
+        android:id="@+id/buttonr5"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginBottom="206dp"
+        android:text="ERDC" />
+
+
+</RelativeLayout>

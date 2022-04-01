@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PMSK"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonpmsk1"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontrola odlučovačov ropných látok ORL1,2,3,4 kanalizácie" />
+
+        <Button
+            android:id="@+id/buttonpmsk2"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontrola splaškovej kanalizácie (Parshalov žľab)" />
+
+        <Button
+            android:id="@+id/buttonpmsk3"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HIREF Udržiavanie stálej teploty a vlhkosti vzduchu v laboratoriu.
+" />
+        <Button
+            android:id="@+id/buttonpmsk4"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hlavný prívod vody pre Mobis +Napojenie KIA Motoráreň" />
+
+        <Button
+            android:id="@+id/buttonpmsk5"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kĺbová pracovná plošina TOP DINO 126" />
+
+        <Button
+            android:id="@+id/buttonpmsk6"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Safety Generator GEKO" />
+        <Button
+            android:id="@+id/buttonpmsk7"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Odlučovač tukov SK,KK,CPPK" />
+
+
+        <Button
+            android:id="@+id/buttonpmsk9"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zostatok soli" />
+        <Button
+            android:id="@+id/buttonpmsk10"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meranie tvrdosti vody" />
+
+
+        <Button
+            android:id="@+id/buttonpmsk12"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kĺbová pracovná plošina Haulotte HA15IP" />
+        <Button
+            android:id="@+id/buttonpmsk13"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontrola ovládania dverovej clony PRED a PO skončení výroby" />
+
+        <Button
+            android:id="@+id/buttonpmsk14"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontrola ovládania sahary PRED a PO skončení výroby." />
+
+    </LinearLayout>
+</ScrollView>
